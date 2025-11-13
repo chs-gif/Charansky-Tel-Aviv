@@ -1,0 +1,32 @@
+/* Cell.css */
+.cell-outer {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+  }
+  
+  .cell-inner {
+    font-size: 2.5rem;
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* צבעים נפרדים ל-X ול-O */
+  .cell-inner.x {
+    color: blue;
+  }
+  
+  .cell-inner.o {
+    color: red;
+  }
+  
