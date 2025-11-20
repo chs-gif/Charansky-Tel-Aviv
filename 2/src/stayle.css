@@ -1,0 +1,24 @@
+.ta{
+    height: 100px;
+    width: 100px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.ex:after{
+  font-size: 50px;
+  color: #FFF;
+  line-height: 100PX;
+}
+.circle{
+    display: inline-block;
+    width: 50PX;
+    height: 50PX;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 7PX;
+    border-color: blue;
+}
