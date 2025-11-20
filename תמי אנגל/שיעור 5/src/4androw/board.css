@@ -1,0 +1,11 @@
+/* board.css */
+.case {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    border: 2px solid #224;
+    margin: 4px;
+    box-shadow: inset 0 0 8px rgba(0,0,0,0.2);
+    cursor: pointer;
+  }
+  
