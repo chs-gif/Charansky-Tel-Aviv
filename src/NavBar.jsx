@@ -10,15 +10,10 @@ export default function NavBar() {
         <li>
           <Link to={"/about"}>About</Link>
         </li> */}
-
-
-        <li>
-          <Link to={"/4inLIne"}>4 בשורה</Link>
-        </li>
-
-        <li>
-          <Link to={"/XO"}> איקס עיגול</Link>
-        </li>
+  
+<li> <Link to={"/4inLIne"}>4 בשורה</Link></li>
+<li><Link to={"/XO"}> איקס עיגול</Link></li>
+        
       </ul>
     </nav>
   );
