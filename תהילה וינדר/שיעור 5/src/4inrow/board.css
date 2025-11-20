@@ -1,0 +1,28 @@
+.board {
+  display: flex;
+  flex-direction: column; /* rows stack vertically */
+  gap: 4px; /* space between rows */
+}
+
+.row {
+  display: flex;
+  flex-direction: row; /* cells in a row */
+  gap: 4px; /* space between cells */
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  background-color: #e5e7eb; /* light gray */
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.cell:hover {
+  background-color: #d1d5db;
+}
