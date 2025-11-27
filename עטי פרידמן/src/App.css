@@ -1,0 +1,71 @@
+/* עיצוב הלוח הראשי - מרכוז וכו' */
+.game-board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* עיצוב שורת ריבועים */
+.board-row {
+  display: flex;
+}
+
+/* [cite: 7] הדיב החיצוני עם CSS של ריבוע 
+  עיצוב הריבוע הבודד
+*/
+.square {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #555;
+  font-size: 60px; /* גודל האות/צורה */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  transition: background-color 0.2s;
+}
+
+.square:hover {
+  background-color: #e0e0e0;
+}
+
+/* [cite: 8] הדיב הפנימי עם CSS של X/O 
+  עיצוב הצורות עצמן. אנחנו משתמשים ב-content כדי לצייר אותן
+*/
+
+.square .red,
+.square .yellow {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* עיצוב 'X' */
+.square .X {
+  color: #d9534f; /* אדום */
+  font-weight: 2px;
+}
+
+.square .X::after{
+  content: 'X';
+}
+
+/* עיצוב 'O' */
+.square .O {
+  color: yellow;
+  font-weight: 2px;
+}
+.square .O::after{
+  content: 'O';
+}
+
+.square .red{
+  background-color: red;
+}
+.square .yellow{
+  background-color: yellow;
+}
