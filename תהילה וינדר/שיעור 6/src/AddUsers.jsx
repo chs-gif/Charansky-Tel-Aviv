@@ -1,0 +1,6 @@
+export default function AddUser(){
+    return <>
+    <h1>add user</h1>
+    
+    </>
+}
